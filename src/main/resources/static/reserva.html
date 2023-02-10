@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- Practica 2 -->
+<html lang="es">
+    <head>
+        <title>Hotel Charlie´s</title>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Practica 2"/>
+        <meta name="keywords" content="Charlie´s, hotel, alojamiento"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+   
+    <body style="text-align: center">
+        <header class="header">
+            <nav class="nav">
+               <a class="logo nav-link" href="index.html">Charlies</a> 
+               <ul class="nav-menu">
+                   <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="mapa.html">&LeftTriangleBar;</a></li>  
+                   <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="index.html">&RightTriangleBar;</a></li>
+                   <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="fotos.html">Fotos</a></li>
+                   <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="restint.html">Restaurantes</a></li>
+                   <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="mapa.html">Mapa</a></li>
+                   <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="activ.html">Actividades</a></li>
+                   <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="reserva.html">Reservación</a></li>
+      
+               </ul>
+            </nav>
+            <hr>
+        </header>
+        
+        <section class="contenido" style="position: relative; top: 80px; left:0%; right:0%; text-align: left; background-color:white; color: black ">
+            <h2>Huéspedes</h2>
+           
+                <article>
+                    <h3>Registro de Clientes</h3>
+                    <form action="/cliente/insertar" >
+                        <input type="hidden" name="id" value="5" />
+                        <fieldset>
+                            <label>Nombre</label>
+                            <input type="text" 
+                                   name="nombre" 
+                                   value="" 
+                                   size="40" />
+                        </fieldset>
+                        <fieldset>
+                            <label>Apellidos</label>
+                            <input type="text" 
+                                   name="apellidos" 
+                                   value="" 
+                                   size="10" />
+                        </fieldset>
+                        <fieldset>
+                            <label>Edad</label>
+                            <input type="number" 
+                                   name="edad" 
+                                   min="1"
+                                   value="" />
+                        </fieldset>
+                        <fieldset>
+                            <label>Días de estadía</label>
+                            <input type="number" 
+                                   name="Dias de estadia" 
+                                   min="1"
+                                   value="" />
+                        </fieldset>
+                        <fieldset>
+                            <label>Total</label>
+                            <input type="number" 
+                                   name="edad" 
+                                   min="1"
+                                   value="" />
+                        </fieldset>
+                        <input type="submit"  value="Registrar" />
+                    </form>
+                    
+                </article>
+
+            
+        </section>
+        
+        <footer class="footer">
+            Charlie´s resort &COPY;
+        </footer>
+    </body>
+</html>

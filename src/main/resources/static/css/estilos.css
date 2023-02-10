@@ -87,8 +87,7 @@ tbody tr:nth-child(odd){
 tbody tr:nth-child(even){
     background-color: white
 }
-/*modelo de cajas*/
-/*comienza la definicion del menu*/
+
 
 .nav {
     display: flex;
